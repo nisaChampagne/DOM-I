@@ -62,9 +62,9 @@ const questionsText = document.createTextNode('Common Questions');
 const subscribeText = document.createTextNode('Subscribe');
 
 newATag.appendChild(questionsText);
-nav2.appendChild(newATag);
+nav2.prepend(newATag);
 otherNewATag.prepend(subscribeText);
-nav2.appendChild(otherNewATag);
+nav2.prepend(otherNewATag);
 
 const allNavLinks = document.querySelectorAll('nav a');
 allNavLinks.forEach((link)  => {
