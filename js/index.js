@@ -44,14 +44,14 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 const header = document.querySelector('#cta-img');
 header.src = siteContent.cta['img-src'];
 
-const Anchors = document.querySelectorAll('a');
+const navvies = document.querySelectorAll('a');
 
-Anchors[0].textContent = 'Services';
-Anchors[1].textContent = 'Product';
-Anchors[2].textContent = 'Vision';
-Anchors[3].textContent = 'Features';
-Anchors[4].textContent = 'About';
-Anchors[5].textContent = 'Contact';
+navvies[0].textContent = 'Services';
+navvies[1].textContent = 'Product';
+navvies[2].textContent = 'Vision';
+navvies[3].textContent = 'Features';
+navvies[4].textContent = 'About';
+navvies[5].textContent = 'Contact';
 
 
 const button = document.querySelector('button');
