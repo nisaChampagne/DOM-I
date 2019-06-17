@@ -45,35 +45,32 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
-const navvies = document.querySelectorAll('a');
+const nav = document.querySelectorAll('a');
 
-navvies[0].textContent = 'Services';
-navvies[1].textContent = 'Product';
-navvies[2].textContent = 'Vision';
-navvies[3].textContent = 'Features';
-navvies[4].textContent = 'About';
-navvies[5].textContent = 'Contact';
-
-navvies.forEach(function(currentValue){
-  currentValue.style.color = 'green';
-});
+nav[0].textContent = 'Services';
+nav[1].textContent = 'Product';
+nav[2].textContent = 'Vision';
+nav[3].textContent = 'Features';
+nav[4].textContent = 'About';
+nav[5].textContent = 'Contact';
 
 
-const navvies2 = document.querySelector('a');
+const nav2= document.querySelector('nav');
 const newATag = document.createElement('a');
 const otherNewATag = document.createElement('a');
 const questionsText = document.createTextNode('Common Questions');
 const subscribeText = document.createTextNode('Subscribe');
 
 newATag.appendChild(questionsText);
-navvies2.appendChild(newATag);
-otherNewATag.appendChild(subscribeText);
-navvies2.appendChild(otherNewATag);
+nav2.appendChild(newATag);
+otherNewATag.prepend(subscribeText);
+nav2.appendChild(otherNewATag);
 
 const allNavLinks = document.querySelectorAll('nav a');
 allNavLinks.forEach((link)  => {
   link.style.color ='green';
 })
+
 
 
 ////
