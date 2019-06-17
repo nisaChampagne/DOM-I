@@ -53,10 +53,15 @@ navvies[3].textContent = 'Features';
 navvies[4].textContent = 'About';
 navvies[5].textContent = 'Contact';
 
+navvies.forEach(function(currentValue){
+  currentValue.style.color = 'green';
+});
+
 
 const button = document.querySelector('button');
 button.textContent= 'Get Started';
 button.style.color = 'black';
+
 
 const Title = document.querySelector('.cta-text h1');
 Title.textContent = "DOM IS AWESOME";
@@ -87,7 +92,7 @@ contactInfo.textContent = 'Contact';
 
 const contactInfo2 = document.querySelectorAll('.contact p');
 
-contactInfo2[0].textContent ="123 Way 456 Street Somewhere, USA";
+contactInfo2[0].textContent ="123 Way 456 Street, Somewhere, USA";
 contactInfo2[1].textContent = "1 (888) 888 8888";
 contactInfo2[2].textContent = "sales@greatidea.io";
 
