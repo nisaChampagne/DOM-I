@@ -1,6 +1,6 @@
 const siteContent = {
   "nav": {
-    "nav-item-1": "Services",
+    "nav-item-1": 'Services',
     "nav-item-2": "Product",
     "nav-item-3": "Vision",
     "nav-item-4": "Features",
@@ -38,11 +38,12 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
+
+
+/////header and nav stuff//
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-const header = document.querySelector('#cta-img');
-header.src = siteContent.cta['img-src'];
 
 const navvies = document.querySelectorAll('a');
 
@@ -68,8 +69,6 @@ newATag.appendChild(questionsText);
 navvies2.appendChild(newATag);
 otherNewATag.appendChild(subscribeText);
 navvies2.appendChild(otherNewATag);
-// const h1 = document.querySelector('h1');
-// h1.textContent = siteContent['cta']['h1'];
 
 const allNavLinks = document.querySelectorAll('nav a');
 allNavLinks.forEach((link)  => {
@@ -77,6 +76,10 @@ allNavLinks.forEach((link)  => {
 })
 
 
+////
+
+const header = document.querySelector('#cta-img');
+header.src = siteContent.cta['img-src'];
 
 const button = document.querySelector('button');
 button.textContent= 'Get Started';
@@ -85,6 +88,9 @@ button.style.color = 'black';
 
 const Title = document.querySelector('.cta-text h1');
 Title.textContent = "DOM IS AWESOME";
+
+
+///middle stuff
 
 const featureH4 = document.querySelector ('.text-content h4');
 featureH4.textContent = 'Features';
@@ -106,6 +112,8 @@ bottom2[0].textContent = "Services content elementum magna eros, ac posuere elvi
 bottom2[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 bottom2[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
+
+///contact and footer
 const contactInfo = document.querySelector('.contact h4');
 
 contactInfo.textContent = 'Contact';
