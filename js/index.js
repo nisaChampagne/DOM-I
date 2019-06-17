@@ -67,3 +67,5 @@ featureH4.textContent = 'Features';
 const featureContent = document.querySelector('.text-content p');
 featureContent.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis';
 
+const midImg = document.querySelector('.main-content img');
+midImg.src = siteContent['main-content']['middle-img-src'];
