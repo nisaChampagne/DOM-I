@@ -52,3 +52,14 @@ Anchors[2].textContent = 'Vision';
 Anchors[3].textContent = 'Features';
 Anchors[4].textContent = 'About';
 Anchors[5].textContent = 'Contact';
+
+
+const button = document.querySelector('button');
+button.textContent= 'Get Started';
+button.style.color = 'black';
+
+const Title = document.querySelector('.cta-text h1');
+Title.textContent = "DOM IS AWESOME";
+
+const left1 = document.querySelector ('.text-content h4');
+left1.textContent = 'Features';
