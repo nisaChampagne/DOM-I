@@ -87,7 +87,8 @@ button.style.color = 'black';
 
 
 const Title = document.querySelector('.cta-text h1');
-Title.textContent = "DOM IS AWESOME";
+Title.innerHTML = "DOM<br> IS<br> AWESOME";
+
 
 
 ///middle stuff
