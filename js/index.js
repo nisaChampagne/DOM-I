@@ -80,3 +80,17 @@ const bottom2 = document.querySelectorAll('.bottom-content .text-content p');
 bottom2[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 bottom2[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 bottom2[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+const contactInfo = document.querySelector('.contact h4');
+
+contactInfo.textContent = 'Contact';
+
+const contactInfo2 = document.querySelectorAll('.contact p');
+
+contactInfo2[0].textContent ="123 Way 456 Street Somewhere, USA";
+contactInfo2[1].textContent = "1 (888) 888 8888";
+contactInfo2[2].textContent = "sales@greatidea.io";
+
+const foot = document.querySelector ('footer p');
+
+foot.textContent = siteContent.footer.copyright;
