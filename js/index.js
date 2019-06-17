@@ -69,3 +69,8 @@ featureContent.textContent = 'Features content elementum magna eros, ac posuere 
 
 const midImg = document.querySelector('.main-content img');
 midImg.src = siteContent['main-content']['middle-img-src'];
+
+const bottom = document.querySelectorAll('.bottom-content .text-content h4')
+bottom[0].textContent = 'Services';
+bottom[1].textContent = 'Product';
+bottom[2].textContent = 'Vision';
