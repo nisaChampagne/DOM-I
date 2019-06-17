@@ -58,6 +58,24 @@ navvies.forEach(function(currentValue){
 });
 
 
+
+// const navvies = document.querySelector('navvies');
+// const newATag = document.createElement('a');
+// const otherNewATag = document.createElement('a');
+// const resourcesText = document.createTextNode('Resources');
+// const extrasText = document.createTextNode('Extras');
+
+// newATag.appendChild(resourcesText);
+// navviews.appendChild(newATag);
+
+// otherNewATag.appendChild(extrasText);
+// navvies.appendChild(otherNewATag);
+// const h1 = document.querySelector('h1');
+// h1.textContent = siteContent['cta']['h1'];
+
+
+
+
 const button = document.querySelector('button');
 button.textContent= 'Get Started';
 button.style.color = 'black';
