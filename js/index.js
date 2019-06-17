@@ -58,7 +58,6 @@ navvies.forEach(function(currentValue){
 });
 
 
-
 const navvies2 = document.querySelector('a');
 const newATag = document.createElement('a');
 const otherNewATag = document.createElement('a');
@@ -69,9 +68,13 @@ newATag.appendChild(questionsText);
 navvies2.appendChild(newATag);
 otherNewATag.appendChild(subscribeText);
 navvies2.appendChild(otherNewATag);
-const h1 = document.querySelector('h1');
-h1.textContent = siteContent['cta']['h1'];
+// const h1 = document.querySelector('h1');
+// h1.textContent = siteContent['cta']['h1'];
 
+const allNavLinks = document.querySelectorAll('nav a');
+allNavLinks.forEach((link)  => {
+  link.style.color ='green';
+})
 
 
 
